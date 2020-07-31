@@ -1,4 +1,4 @@
- body {
+body {
   background: #121822;
   --color: #aeabb5;
 }
@@ -25,7 +25,6 @@ statblock {
   margin-top: -1em;
   margin-bottom: -1.75em;
 }
-
 statblock hp,
 statblock ac,
 statblock sbtitle,
@@ -44,11 +43,9 @@ statblock accuracy {
 statblock summary {
   cursor: pointer;
 }
-
 statblock sbtitle {
   font-weight: bold;
 }
-
 statblock info {
   position: absolute;
   left: -15px;
@@ -56,7 +53,6 @@ statblock info {
   height: 50px;
   text-align: center;
 }
-
 statblock img {
   display: block;
   margin-bottom: 0.75em;
@@ -64,7 +60,6 @@ statblock img {
   width: 100%;
   border-radius: 100%;
 }
-
 statblock hp,
 statblock ac {
   display: block;
@@ -75,26 +70,22 @@ statblock stat, statblock melee, statblock ranged {
   align-items: center;
   margin-right: 6px;
 }
-
 statblock techniques {
   margin-top: 0.75em;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
-
 statblock techniques stat, statblock techniques melee, statblock techniques ranged {
   flex-grow: 1;
   flex-shrink: 0;
 }
-
 statblock skills {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-bottom: 0.25em;
 }
-
-statblock [type]::before {
+statblock [type]::before{
   display: inline-block;
   width: 1.2em;
   text-align: left;
@@ -117,52 +108,40 @@ statblock ranged::before {
   text-transform: none;
   padding-right: 6px;
 }
-
 statblock melee::before {
   content: "\e243";
 }
-
 statblock ranged::before {
   content: "\e053";
-  transform: translatey(-3px) rotate(-40deg);
+  transform: translatey(-3px) rotate(-40deg) ;
 }
-
 statblock [type="offense"]::before {
   content: "\f6b2";
 }
-
 statblock [type="support"]::before {
   content: "\f055";
 }
-
 statblock [type="defense"]::before {
   content: "\f132";
 }
-
 statblock [type="companion"]::before {
   content: "\f702";
 }
-
 statblock [type="armor"]::before {
   content: "\f6eb";
 }
-
 statblock [type="weapon"]::before {
   content: "\f71d";
 }
-
 statblock [type="accessory"]::before {
   content: "\f70b";
 }
-
 statblock [type="brew"]::before {
   content: "\f6e1";
 }
-
 statblock [type="food"]::before {
   content: "\f2e6";
 }
-
 statblock [type="ammo"]::before {
-  content: "\e036";
+  content: "\f753";
 }
