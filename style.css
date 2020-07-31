@@ -66,7 +66,7 @@ statblock ac {
 statblock stat, statblock melee, statblock ranged {
   display: flex;
   align-items: center;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 statblock techniques {
   margin-top: 0.75em;
@@ -88,6 +88,9 @@ statblock skills stat {
   width: min-content;
   line-height: 125%;
   font-weight: bold;
+  background: rgba(0,0,0,0.2);
+  padding: 5px;
+  flex: 1 1;
 }
 
 statblock [type]::before{
