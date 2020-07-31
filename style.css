@@ -1,23 +1,3 @@
-body {
-  background: #121822;
-  --color: #aeabb5;
-}
-
-main {
-  background: #1b2433;
-  color: #e6e0db;
-  outline: 1px solid #1b2433;
-  padding: 50px 60px;
-  font-size: 11px;
-  margin: 30px auto;
-  max-width: 380px;
-  outline-offset: 10px;
-  letter-spacing: 0.5px;
-  line-height: 200%;
-  text-align: justify;
-  font-family: inter;
-}
-
 statblock {
   position: relative;
   display: block;
@@ -25,6 +5,11 @@ statblock {
   margin-top: -1em;
   margin-bottom: -1.75em;
 }
+
+statblock [spacer] {
+  margin-bottom: 0.5em;
+}
+
 statblock hp,
 statblock ac,
 statblock sbtitle,
