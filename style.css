@@ -44,11 +44,9 @@ statblock img {
   object-fit: contain;
   width: 100%;
   border-radius: 100%;
-  padding: 3px;
-  background: var(--white);
 }
 
-statblock img::after
+statblock ava::after
 {
  box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.5);
  content: '';
