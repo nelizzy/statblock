@@ -86,6 +86,8 @@ statblock skills {
 
 statblock skills stat {
   width: min-content;
+  line-height: 125%;
+  font-weight: bold;
 }
 
 statblock [type]::before{
