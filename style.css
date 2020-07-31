@@ -44,6 +44,8 @@ statblock img {
   object-fit: contain;
   width: 100%;
   border-radius: 100%;
+  padding: 3px;
+  background: var(--white);
 }
 statblock hp,
 statblock ac {
