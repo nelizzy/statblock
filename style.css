@@ -72,6 +72,11 @@ statblock skills {
   text-align: center;
   margin-bottom: 0.25em;
 }
+
+statblock skills stat {
+  width: min-content;
+}
+
 statblock [type]::before{
   display: inline-block;
   width: 1.2em;
