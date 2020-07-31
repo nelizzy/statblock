@@ -61,6 +61,7 @@ statblock ava::after
 statblock hp,
 statblock ac {
   display: block;
+  font-weight: 550;
 }
 
 statblock stat, statblock melee, statblock ranged {
@@ -87,7 +88,7 @@ statblock skills {
 statblock skills stat {
   width: min-content;
   line-height: 125%;
-  font-weight: bold;
+  font-weight: 550;
   background: rgba(0,0,0,0.2);
   padding: 5px;
   flex: 1 1;
@@ -96,7 +97,7 @@ statblock skills stat {
 statblock [type]::before{
   display: inline-block;
   width: 1.2em;
-  text-align: left;
+  text-align: right;
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   font-style: normal;
@@ -104,6 +105,7 @@ statblock [type]::before{
   text-rendering: auto;
   padding-right: 6px;
   -webkit-font-smoothing: antialiased;
+  opacity: 0.8;
 }
 
 statblock melee::before,
@@ -115,13 +117,16 @@ statblock ranged::before {
   font-variant: normal;
   text-transform: none;
   padding-right: 6px;
+  opacity: 0.8;
+  width: 1.2em;
+text-align: right;
 }
 statblock melee::before {
   content: "\e243";
 }
 statblock ranged::before {
   content: "\e053";
-  transform: translatey(-3px) rotate(-40deg) ;
+  transform: translatey(-2px) rotate(-40deg) ;
 }
 statblock [type="offense"]::before {
   content: "\f6b2";
