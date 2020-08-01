@@ -43,6 +43,7 @@ statblock img {
   margin-bottom: 0.75em;
   object-fit: contain;
   width: 100%;
+  height: 100%;
   border-radius: 100%;
 }
 
